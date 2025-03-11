@@ -4,7 +4,7 @@ from typing import List, Optional
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
 from uvicorn import run
-from Models import User, UserCreate, Token
+from Model import User, UserCreate, Token
 
 SECRET_KEY = "placeholder"
 ALGORITHM = "HS256"
